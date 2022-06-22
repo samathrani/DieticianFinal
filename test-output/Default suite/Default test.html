@@ -1,0 +1,1466 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>139/38/0</td>
+</tr><tr>
+<td>Started on:</td><td>Tue Jun 21 13:25:40 CDT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>4 seconds (4469 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page15", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace112797307", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace112797307'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:91)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page19", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:115)
+</pre></div><a href='#' onClick='toggleBox("stack-trace472234151", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace472234151'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:115)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Dietician homepage3", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace366916060", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace366916060'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:19)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Dietician homepage7", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:43)
+</pre></div><a href='#' onClick='toggleBox("stack-trace664839586", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace664839586'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:43)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page6", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:37)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1251219927", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1251219927'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:37)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Diet Plans page", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AfterLogin.user_is_on_the_dietician_website(AfterLogin.java:11)
+	at ✽.User is on the Dietician website(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AfterLogin.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace504478805", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace504478805'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AfterLogin.user_is_on_the_dietician_website(AfterLogin.java:11)
+	at ✽.User is on the Dietician website(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AfterLogin.feature:25)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to upload a file with proper file format and incorrect size", "Create New Diet Plan page functionality"</td>
+<td><div><pre>java.lang.AssertionError: expected [PDF files within the size limit of 2MB] but found [PDF files exceeding the size limit of 2MB]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at stepDefinition.Createdietplan.the_user_should_see_an_error_message(Createdietplan.java:93)
+	at ✽.The user should see an error message &quot;PDF files exceeding the size limit of 2MB&quot;(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/createdietplan.feature:45)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1002041276", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1002041276'><pre>java.lang.AssertionError: expected [PDF files within the size limit of 2MB] but found [PDF files exceeding the size limit of 2MB]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at stepDefinition.Createdietplan.the_user_should_see_an_error_message(Createdietplan.java:93)
+	at ✽.The user should see an error message &quot;PDF files exceeding the size limit of 2MB&quot;(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/createdietplan.feature:45)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Dietician homepage8", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:49)
+</pre></div><a href='#' onClick='toggleBox("stack-trace54176060", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace54176060'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:49)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page14", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:85)
+</pre></div><a href='#' onClick='toggleBox("stack-trace238874235", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace238874235'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:85)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Dietician homepage2", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace855724043", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace855724043'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:13)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Dietician homepage4", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1470420462", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1470420462'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:25)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page16", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:97)
+</pre></div><a href='#' onClick='toggleBox("stack-trace827328832", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace827328832'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:97)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with Email which already exists Option2", "Registration"</td>
+<td><div><pre>io.cucumber.core.exception.CucumberException: Step [User should see a message Email address already exists] is defined with 0 parameters at &apos;stepDefinition.Register.user_should_see_a_message_email_address_already_exists()&apos;.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | Sheet Name | Test case |
+      | Sheet1     | 23        |
+
+Step text: User should see a message Email address already exists
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at jdk.internal.reflect.GeneratedMethodAccessor44.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1964926542", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1964926542'><pre>io.cucumber.core.exception.CucumberException: Step [User should see a message Email address already exists] is defined with 0 parameters at &apos;stepDefinition.Register.user_should_see_a_message_email_address_already_exists()&apos;.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | Sheet Name | Test case |
+      | Sheet1     | 23        |
+
+Step text: User should see a message Email address already exists
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at jdk.internal.reflect.GeneratedMethodAccessor44.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Sign In with both invalid email and password", "Signin using email"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.SignInEmail.user_gets_error_message_message_invalid_login_credentials(SignInEmail.java:85)
+	at ✽.User gets error message message Invalid Login credentials(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/SignInUsingEmail.feature:34)
+</pre></div><a href='#' onClick='toggleBox("stack-trace245530164", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace245530164'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.SignInEmail.user_gets_error_message_message_invalid_login_credentials(SignInEmail.java:85)
+	at ✽.User gets error message message Invalid Login credentials(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/SignInUsingEmail.feature:34)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page3", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace145455292", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace145455292'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:19)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Mypatient page", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AfterLogin.user_is_on_the_dietician_website(AfterLogin.java:11)
+	at ✽.User is on the Dietician website(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AfterLogin.feature:19)
+</pre></div><a href='#' onClick='toggleBox("stack-trace619985571", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace619985571'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AfterLogin.user_is_on_the_dietician_website(AfterLogin.java:11)
+	at ✽.User is on the Dietician website(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AfterLogin.feature:19)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to upload a file with incorrect file format and incorrect size", "Create New Diet Plan page functionality"</td>
+<td><div><pre>java.lang.AssertionError: expected [PDF files within the size limit of 2MB] but found [Only files with extension .pdf are allowed]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at stepDefinition.Createdietplan.the_user_should_see_an_error_message(Createdietplan.java:93)
+	at ✽.The user should see an error message &quot;Only files with extension .pdf are allowed&quot;(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/createdietplan.feature:52)
+</pre></div><a href='#' onClick='toggleBox("stack-trace724028528", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace724028528'><pre>java.lang.AssertionError: expected [PDF files within the size limit of 2MB] but found [Only files with extension .pdf are allowed]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at stepDefinition.Createdietplan.the_user_should_see_an_error_message(Createdietplan.java:93)
+	at ✽.The user should see an error message &quot;Only files with extension .pdf are allowed&quot;(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/createdietplan.feature:52)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Dietician homepage6", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:37)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1202081661", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1202081661'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:37)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page10", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:61)
+</pre></div><a href='#' onClick='toggleBox("stack-trace94682872", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace94682872'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:61)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with Email which already exists Option1", "Registration"</td>
+<td><div><pre>io.cucumber.core.exception.CucumberException: Step [User should see a message Email address already exists] is defined with 0 parameters at &apos;stepDefinition.Register.user_should_see_a_message_email_address_already_exists()&apos;.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | Sheet Name | Test case |
+      | Sheet1     | 23        |
+
+Step text: User should see a message Email address already exists
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at jdk.internal.reflect.GeneratedMethodAccessor44.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div><a href='#' onClick='toggleBox("stack-trace742672280", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace742672280'><pre>io.cucumber.core.exception.CucumberException: Step [User should see a message Email address already exists] is defined with 0 parameters at &apos;stepDefinition.Register.user_should_see_a_message_email_address_already_exists()&apos;.
+However, the gherkin step has 1 arguments:
+ * Table:
+      | Sheet Name | Test case |
+      | Sheet1     | 23        |
+
+Step text: User should see a message Email address already exists
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.arityMismatch(PickleStepDefinitionMatch.java:83)
+	at io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:42)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:85)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:57)
+	at io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:84)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:129)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:129)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at jdk.internal.reflect.GeneratedMethodAccessor44.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:673)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:808)
+	at org.testng.TestRunner.run(TestRunner.java:603)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.runSuites(TestNG.java:1092)
+	at org.testng.TestNG.run(TestNG.java:1060)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page7", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:43)
+</pre></div><a href='#' onClick='toggleBox("stack-trace780843029", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace780843029'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:43)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page5", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:31)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1644864746", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1644864746'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:31)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page1", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1746578747", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1746578747'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:7)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Dietician home page", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AfterLogin.user_is_on_the_dietician_website(AfterLogin.java:11)
+	at ✽.User is on the Dietician website(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AfterLogin.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1963974958", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1963974958'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AfterLogin.user_is_on_the_dietician_website(AfterLogin.java:11)
+	at ✽.User is on the Dietician website(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AfterLogin.feature:7)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to upload a file with incorrect file format and proper size", "Create New Diet Plan page functionality"</td>
+<td><div><pre>java.lang.AssertionError: expected [PDF files within the size limit of 2MB] but found [Only files with extension .pdf are allowed]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at stepDefinition.Createdietplan.the_user_should_see_an_error_message(Createdietplan.java:93)
+	at ✽.The user should see an error message &quot;Only files with extension .pdf are allowed&quot;(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/createdietplan.feature:38)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1121891386", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1121891386'><pre>java.lang.AssertionError: expected [PDF files within the size limit of 2MB] but found [Only files with extension .pdf are allowed]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at stepDefinition.Createdietplan.the_user_should_see_an_error_message(Createdietplan.java:93)
+	at ✽.The user should see an error message &quot;Only files with extension .pdf are allowed&quot;(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/createdietplan.feature:38)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page4", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:25)
+</pre></div><a href='#' onClick='toggleBox("stack-trace273777019", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace273777019'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:25)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page2", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1991724700", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1991724700'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:13)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Dietician homepage5", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:31)
+</pre></div><a href='#' onClick='toggleBox("stack-trace977650730", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace977650730'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:31)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page8", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:49)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2081964843", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2081964843'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:49)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page17", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:103)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1223050066", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1223050066'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:103)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to upload a file with proper file format and size", "Create New Diet Plan page functionality"</td>
+<td><div><pre>java.lang.AssertionError: expected [File uplaoded successfully] but found [File uploaded successfully]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at stepDefinition.Createdietplan.the_user_should_see_a_message(Createdietplan.java:80)
+	at ✽.The user should see a message &quot;File uploaded successfully&quot;(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/createdietplan.feature:31)
+</pre></div><a href='#' onClick='toggleBox("stack-trace986944742", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace986944742'><pre>java.lang.AssertionError: expected [File uplaoded successfully] but found [File uploaded successfully]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1413)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:655)
+	at org.testng.Assert.assertEquals(Assert.java:665)
+	at stepDefinition.Createdietplan.the_user_should_see_a_message(Createdietplan.java:80)
+	at ✽.The user should see a message &quot;File uploaded successfully&quot;(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/createdietplan.feature:31)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page9", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:55)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1893899796", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1893899796'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:55)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page12", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:73)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1658487789", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1658487789'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:73)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Newpatient page", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AfterLogin.user_is_on_the_dietician_website(AfterLogin.java:11)
+	at ✽.User is on the Dietician website(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AfterLogin.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1045985568", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1045985568'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AfterLogin.user_is_on_the_dietician_website(AfterLogin.java:11)
+	at ✽.User is on the Dietician website(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AfterLogin.feature:13)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Dietician homepage1", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:7)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1255109302", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1255109302'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.DieticianHomePage.user_is_on_the_dietician_home_page(DieticianHomePage.java:12)
+	at ✽.User is on the Dietician Home page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/dieticianHomepage.feature:7)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page18", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:109)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1130551263", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1130551263'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:109)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page11", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:67)
+</pre></div><a href='#' onClick='toggleBox("stack-trace608817143", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace608817143'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:67)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "patient page13", "Title of your feature"</td>
+<td><div><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:79)
+</pre></div><a href='#' onClick='toggleBox("stack-trace936906727", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace936906727'><pre>io.cucumber.java.PendingException: TODO: implement me
+	at stepDefinition.AddPatient.user_is_on_the_add_new_patient_page(AddPatient.java:11)
+	at ✽.User is on the Add New Patient Page(file:///Users/ezhilvanan/eclipse-workspace/SDET/Dietician1/src/test/resources/feature/AddnewPatient.feature:79)
+</pre></div></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to update health conditions in option 2", "Create New Diet Plan page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of View Recent Diets page", "View Recent Diets page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the selection of health conditions in options 1 and 2", "Create New Diet Plan page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Patient diet plan", "Verifying My Patient page features"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to traverse front and back using next and previous page buttons", "View Recent Diets page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the Menu is generated after updating health conditions in option 1", "Create New Diet Plan page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with all fields being empty Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sign Up Using Google button Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases for Email Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with all valid  input field Option2.", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the working of previous and next page buttons when one page is displayed", "View Recent Diets page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of Confirm health conditions page in the screen list after signing in with dietician account", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Password Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Patient record detail", "Verifying My Patient page features"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to download the pdf", "View Recent Diets page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of add new patient page in the screen list before signing in with dietician account", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the title and fields of Register Page", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of Screens page", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the Menu is generated after updating health conditions in option 2", "Create New Diet Plan page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of Confirm health conditions page in the screen list before signing in with dietician account", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Mobile number Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sign Up Using Facebook button Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the previous (<) button on first page of Team", "Validating Home page"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify test report deatails", "Test report data"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases for Email Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sign Up Using Facebook button Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "verify Create new diet plan", "Verifying My Patient page features"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the Menu is generated without updating health conditions in option 2", "Create New Diet Plan page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Password Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Sign In with both valid email and password", "Signin using email"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of My patients page in the screen list after signing in with dietician account", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating next(>)button on the last page of Team", "Validating Home page"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display error messages for invalid phone number in phone filter", "Search Patients detail"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Sign In with valid email and invalid password", "Signin using email"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Password Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of blogs page in the screen list", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display error messages for invalid character in name  filter", "Search Patients detail"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the working of next page and previous page buttons when more than one page is displayed", "View Recent Diets page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases for Email Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation to Confirm Health Conditions and Generate new Diet plan page", "Create New Diet Plan page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to update the health conditions in option 1 without selecting health conditions", "Create New Diet Plan page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search patients by phone number filter", "Search Patients detail"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of Dietician home page in the screen list before signing in with dietician account", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases for Email Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the next page(>) button on the first page of Team", "Validating Home page"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases for Email Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Password Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Signin process with valid entries", "Signin using username"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases for first and last name Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sign Up Using Facebook button Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to click on view pdf", "View Recent Diets page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Signin process with Forgot Password link", "Signin using username"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of featured content page in the screen list", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search patients by name filter", "Search Patients detail"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the links on Home Page", "Validating Home page"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of View recent diets page from Dietician homepage", "View Recent Diets page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Signin process with invalid password", "Signin using username"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of register page in the screen list", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with Username exists Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display list of patients details for clicking search button", "Search Patients detail"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with COnfirm password and password dont match Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of home page in the screen list", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Sign In with Facebook button", "Signin using email"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Mobile number Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search patients by email filter", "Search Patients detail"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify My Patient tab", "Verifying My Patient page features"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases for Email Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Sign In with valid email and empty password field", "Signin using email"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Mobile number Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify My Patient tab", "Verifying My Patient page features"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Signin process with all fields empty", "Signin using username"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to browse a pdf file", "Create New Diet Plan page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the title and menubar of the Home page", "Validating Home page"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of testimonials page in the screen list", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of Dietician home page in the screen list after signing in with dietician account", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Sign In with invalid email and valid password", "Signin using email"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify default text in name, email and phone filter input box disappears after started typing in it", "Search Patients detail"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Signin process with invalid username", "Signin using username"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify content of PDF file", "Test report data"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of team page in the screen list", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of view recent test reports page in the screen list before signing in with dietician account", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of forgot password page in the screen list", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Sign In with Google button", "Signin using email"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of user Sign in page in the screen list", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Sign In with Email and password empty", "Signin using email"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Team link on Upper Menu Bar  on Home page", "Validating Home page"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the visibility of heading and records in View Recent Diets page", "View Recent Diets page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the working of next page and previous page buttons when the user is on last page", "View Recent Diets page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View patients previous test reports", "Verifying My Patient page features"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display error messages for invalid email in email filter", "Search Patients detail"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of contact page in the screen list", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Username Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases for first and last name Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sign Up Using Google button Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases for Email Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to upload a file without selecting a document", "Create New Diet Plan page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of add new patient page in the screen list after signing in with dietician account", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with Username exists Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of view recent test reports page in the screen list after signing in with dietician account", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Sign In with Forgot your password", "Signin using email"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of view recent diets page in the screen list before signing in with dietician account", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Signin process with Not a member yet link", "Signin using username"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of My patients page in the screen list before signing in with dietician account", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with all valid  input field Option1.", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify My Patient tab", "Verifying My Patient page features"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify pagination", "Test report data"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test the navigation of view recent diets page in the screen list after signing in with dietician account", "List of screens functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Username Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to update the health conditions in option 2 without selecting health conditions", "Create New Diet Plan page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the user is able to update health conditions in option 1", "Create New Diet Plan page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating Sign In with SignUp button", "Signin using email"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test if the Menu is generated without updating health conditions in option 1", "Create New Diet Plan page functionality"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify pagination", "Test report data"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Display Display list of patients for clicking search button", "Search Patients detail"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases for Email Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Sign Up Using Google button Option2", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify deatails of PDF file", "Test report data"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Sign up process with invalid Cases Option1", "Registration"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the previous button (<)  when there are previous pages to display", "Validating Home page"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+<tr>
+<td title='testRunner.AllureR.runScenario()'><b>runScenario</b><br>Test class: testRunner.AllureR<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating default number of Doctor names on first Doctor Team Page", "Validating Home page"</td>
+<td></td>
+<td>0</td>
+<td>testRunner.AllureR@202b0582</td></tr>
+</table><p>
+</body>
+</html>
